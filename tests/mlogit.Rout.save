@@ -1,6 +1,6 @@
 
-R version 4.4.1 (2024-06-14) -- "Race for Your Life"
-Copyright (C) 2024 The R Foundation for Statistical Computing
+R version 4.5.0 (2025-04-11) -- "How About a Twenty-Six"
+Copyright (C) 2025 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
@@ -30,12 +30,8 @@ https://r-forge.r-project.org/projects/maxlik/
 + }
 Loading required package: mlogit
 Loading required package: dfidx
-
-Attaching package: 'dfidx'
-
-The following object is masked from 'package:stats':
-
-    filter
+The tidyverse part of the package is now in the tidydfidx package
+so that the dfidx package now depends only on a small set of packages
 
 > if( !require( "sampleSelection" ) ) {
 +   q( save = "no" )
@@ -1928,4 +1924,4 @@ effect  stdEr
 > 
 > proc.time()
    user  system elapsed 
-  3.641   0.160   3.792 
+  2.599   0.138   2.734 

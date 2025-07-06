@@ -1,6 +1,6 @@
 Package: urbin
-Version: 0.1-15
-Date: 2024-10-01
+Version: 0.1-16
+Date: 2025-07-06
 Title: Unifying Estimation Results with Binary Dependent Variables
 Authors@R: c(
     person( "Arne", "Henningsen", 
